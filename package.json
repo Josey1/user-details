@@ -1,0 +1,19 @@
+{
+  "name": "user-details",
+  "version": "1.0.0",
+  "description": "User info directory",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Josey1/user-details.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Josey1/user-details/issues"
+  },
+  "homepage": "https://github.com/Josey1/user-details#readme"
+}
