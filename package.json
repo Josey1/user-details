@@ -4,7 +4,9 @@
   "description": "User info directory",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel -D src -d dist",
+    "dev": "yarn run build && node dist/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,13 @@
   "bugs": {
     "url": "https://github.com/Josey1/user-details/issues"
   },
-  "homepage": "https://github.com/Josey1/user-details#readme"
+  "homepage": "https://github.com/Josey1/user-details#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.3",
+    "@babel/core": "^7.10.3",
+    "@babel/preset-env": "^7.10.3"
+  }
 }
